@@ -5,7 +5,6 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import SkillTool from "../components/SkillTool";
 import Work from "../components/Work";
-import Resume from "../components/Resume";
 import Experience from "../components/Experience";
 import styles from "../styles/Home.module.css";
 
