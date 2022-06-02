@@ -41,7 +41,7 @@ const Work = () => {
         variants={variants}
         transition={{ duration: 2, ease: "easeInOut" }}
       >
-        <Image src="/../public/img/grab.png"  alt="" width="35" height="35" />
+        <Image src="/img/grab.png"  alt="" width="35" height="35" />
         <span className="text-yellow-700">Drag to the right to see more !</span>
       </motion.div>
     </section>
