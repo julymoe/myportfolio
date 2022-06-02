@@ -28,7 +28,7 @@ const Hero = () => {
                 variants={variants}
                 transition={{ duration: 2, ease: "easeInOut" }}
               >
-                I'm a frontend and wordpress cms developer who has been building
+                I&apos;m a frontend and wordpress cms developer who has been building
                 for the web in some capacity since 2007. I specialise in
                 accessibility, performance and usability without sacrificing
                 creativity.

@@ -32,7 +32,7 @@ const Work = () => {
           transition={{ duration: 2, ease: "easeInOut" }}
           className="text-center mb-5"
         >
-          Selected projects I've worked on in the past.
+          Selected projects I&apos;ve worked on in the past.
         </motion.div>
       </div>
       <motion.div className="text-center flex gap-5 justify-center items-center border border-dashed border-gray-300 rounded-lg bg-yellow-100 w-fit py-2 px-5 mx-auto mb-7" 

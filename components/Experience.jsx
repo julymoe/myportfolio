@@ -23,7 +23,7 @@ const Experience = () => {
           transition={{ duration: 2, ease: "easeInOut" }}
           className="text-center md:px-52"
         >
-          I’ve worked on a handful of web projects over the past over 11 years,
+          I&apos;ve worked on a handful of web projects over the past over 11 years,
           some of which were for the following organizations:
         </motion.p>
 
@@ -45,12 +45,11 @@ const Experience = () => {
           <div>
             <p className="pb-7">
               I orchestrated and developed the frontend infrastructure, design
-              and functionality for hellotax's new JavaScript-centric app
+              and functionality for hellotax&apos;s new JavaScript-centric app
               powered by Vue and also managed a co-engineer.
             </p>
             <ul className="marker:text-amber-300 list-disc list-inside">
               <li>
-                {" "}
                 Crafted a scalable component library that enforced accessibility
                 and fluency across the application.
               </li>
@@ -59,7 +58,6 @@ const Experience = () => {
                 with JavaScript.
               </li>
               <li>
-                {" "}
                 Implemented a client-side localization system for the entire
                 app.
               </li>
@@ -72,7 +70,7 @@ const Experience = () => {
                 runtime errors and unusability in production.
               </li>
             </ul>
-            <p className="py-7">Projects I've worked on</p>
+            <p className="py-7">Projects I&apos;ve worked on</p>
             <ul>
               <li>
                 <a
@@ -141,12 +139,11 @@ const Experience = () => {
           <div>
             <p>
               I orchestrated and developed the frontend infrastructure, design
-              and functionality for hellotax's new JavaScript-centric app
+              and functionality for hellotax&apos;s new JavaScript-centric app
               powered by Vue and also managed a co-engineer.
             </p>
             <ul className="marker:text-amber-300 list-disc list-inside">
               <li>
-                {" "}
                 Crafted a scalable component library that enforced accessibility
                 and fluency across the application.
               </li>
@@ -155,7 +152,6 @@ const Experience = () => {
                 with JavaScript.
               </li>
               <li>
-                {" "}
                 Implemented a client-side localization system for the entire
                 app.
               </li>
@@ -168,7 +164,7 @@ const Experience = () => {
                 runtime errors and unusability in production.
               </li>
             </ul>
-            <p className="py-7">Projects I've worked on</p>
+            <p className="py-7">Projects I&apos;ve worked on</p>
             <ul>
               <li>
                 <a
@@ -255,7 +251,7 @@ const Experience = () => {
           <div>
             <p>
               I orchestrated and developed the frontend infrastructure, design
-              and functionality for hellotax's new JavaScript-centric app
+              and functionality for hellotax&apos;s new JavaScript-centric app
               powered by Vue and also managed a co-engineer.
             </p>
             <ul className="marker:text-amber-300 list-disc list-inside">
@@ -280,7 +276,7 @@ const Experience = () => {
                 runtime errors and unusability in production.
               </li>
             </ul>
-            <p className="py-7">Projects I've worked on</p>
+            <p className="py-7">Projects I&apos;ve worked on</p>
             <ul>
               <li>
                 <a
@@ -367,7 +363,7 @@ const Experience = () => {
           <div>
             <p>
               I orchestrated and developed the frontend infrastructure, design
-              and functionality for hellotax's new JavaScript-centric app
+              and functionality for hellotax&apos;s new JavaScript-centric app
               powered by Vue and also managed a co-engineer.
             </p>
             <ul className="marker:text-amber-300 list-disc list-inside">
@@ -392,7 +388,7 @@ const Experience = () => {
                 runtime errors and unusability in production.
               </li>
             </ul>
-            <p className="py-7">Projects I've worked on</p>
+            <p className="py-7">Projects I&apos;ve worked on</p>
             <ul>
               <li>
                 <a
@@ -425,7 +421,7 @@ const Experience = () => {
           <div>
             <p>
               I orchestrated and developed the frontend infrastructure, design
-              and functionality for hellotax's new JavaScript-centric app
+              and functionality for hellotax&apos;s new JavaScript-centric app
               powered by Vue and also managed a co-engineer.
             </p>
             <ul className="marker:text-amber-300 list-disc list-inside">
@@ -450,7 +446,7 @@ const Experience = () => {
                 runtime errors and unusability in production.
               </li>
             </ul>
-            <p className="py-7">Over 30 client’s websites</p>
+            <p className="py-7">Over 30 client&apos;s websites</p>
           </div>
         </motion.article>
       </div>
