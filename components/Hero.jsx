@@ -64,7 +64,7 @@ const Hero = () => {
           >
             <Image
               className="img-fluid mx-auto rounded-md"
-              src="/../public/img/ttl.jpg"
+              src="/../public/ttl.jpg"
               alt=""
               width="350"
               height="350"
