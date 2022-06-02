@@ -57,10 +57,10 @@ const Hero = () => {
           </div>
           <motion.div
             className="w-full md:w-1/2 py-10 md:py-0 text-center"
-            // initial="hidden"
-            // animate="visible"
-            // variants={variants}
-            // transition={{ duration: 2, ease: "easeInOut" }}
+            initial="hidden"
+            animate="visible"
+            variants={variants}
+            transition={{ duration: 2, ease: "easeInOut" }}
           >
             <Image
               className="img-fluid mx-auto rounded-md"
