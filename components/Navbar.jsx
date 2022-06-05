@@ -49,10 +49,12 @@ const Navbar = () => {
     <header id="header-wrap" className="relative">
       {/* <!-- Navbar Start -->       */}
       <div className="navigation fixed top-0 left-0 w-full z-30 duration-300">
-        <nav
+        <motion.nav
+          initial={{opacity:0}}
+          animate={{opacity:1}}
           className="navbar py-2 navbar-expand-lgrelative duration-300"
           style={{
-            //background: `rgba(255, 255, 255, ${backgroundTransparacy})`,
+            background: `rgba(255, 255, 255, ${backgroundTransparacy})`,
             background: `rgba(255, 255, 255)`,
             padding: `${padding}px 0px`,
             boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
@@ -171,7 +173,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-        </nav>
+        </motion.nav>
       </div>
     </header>
   );

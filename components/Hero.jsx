@@ -64,10 +64,10 @@ const Hero = () => {
           >
             <Image
               className="img-fluid mx-auto rounded-md"
-              src="/img/ttl.jpg"
+              src="/img/my-portfolio.svg"
               alt=""
-              width="350"
-              height="350"
+              width="500"
+              height="500"
             />
           </motion.div>
         </div>

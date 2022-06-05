@@ -148,6 +148,10 @@ const SkillTool = () => {
             <i className="text-7xl devicon-photoshop-plain colored"></i>
             <p>Photoshop</p>
           </div>
+          <div className="box-icon">
+            <i className="text-7xl devicon-mysql-plain-wordmark colored"></i>
+            <p>MySql</p>
+          </div>
         </motion.div>
       </div>
     </section>

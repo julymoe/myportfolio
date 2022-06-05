@@ -28,6 +28,27 @@ const Contact = () => {
           >
             Got a question or just want to say hello? Go ahead.
           </motion.p>
+          <motion.div className="flex mb-6 items-center justify-center mb-5"
+          initial="hidden"
+          animate="visible"
+          variants={variants}
+          transition={{ duration: 2, ease: "easeInOut" }}
+          >
+                  <p className="pl-3">
+                  <a href="mailto:athelay.lwin@gmail.com" className="inline-block pr-5">
+                    <MailOutlined className="hover:text-amber-500" /> 
+                    </a>
+                    <a href="tel:+9595153855" className="inline-block pr-5">
+                    <MobileOutlined className="hover:text-amber-500" /> 
+                    </a>
+                    <a href="https://www.linkedin.com/in/the-the-lwin-81487921/"  target="_blank" rel="noopener noreferrer" className="inline-block pr-5">
+                      <LinkedinOutlined className="hover:text-amber-500" />
+                    </a>
+                    {/* <a href="tel:+9595153855" className="inline-block">
+                      <FacebookOutlined className="hover:text-amber-500" />
+                    </a> */}
+                  </p>
+                </motion.div>
         </div>
         <div className="flex flex-col md:flex-row">
           <div className="w-full">
@@ -122,38 +143,17 @@ const Contact = () => {
             animate="visible"
             variants={variants}
             transition={{ duration: 2, ease: "easeInOut" }}
-            className="px-0 md:px-10 w-full sm:w-1/3 lg:w-1/3 py-10 md:py-0"
+            className="px-0 md:px-10 w-full sm:w-1/2 lg:w-1/2 py-10 md:py-0"
           >
             <div className="pl-3 md:pl-12">
-              <h2 className="uppercase font-bold text-xl text-gray-700 mb-5">
-                Get In Touch
-              </h2>
-              <div>
-                <div className="flex flex-wrap mb-6 items-center">
-                  <p className="pl-3">
-                    <a href="mailto:athelay.lwin@gmail.com" className="block">
-                    <MailOutlined /> athelay.lwin@gmail.com
-                    </a>
-                  </p>
-                </div>
-                <div className="flex flex-wrap mb-6 items-center">
-                  <p className="pl-3">
-                    <a href="tel:+9595153855" className="block">
-                    <MobileOutlined /> +95 5 5153855
-                    </a>
-                  </p>
-                </div>
-                {/* <div className="flex mb-6 items-center">
-                  <p className="pl-3">
-                    <a href="tel:+9595153855" className="inline-block pr-5">
-                      <LinkedinOutlined />
-                    </a>
-                    <a href="tel:+9595153855" className="inline-block">
-                      <FacebookOutlined />
-                    </a>
-                  </p>
-                </div> */}
-              </div>
+              
+              <Image
+              className="img-fluid mx-auto rounded-md"
+              src="/img/mp-contact.svg"
+              alt=""
+              width="500"
+              height="500"
+            />
             </div>
           </motion.div>
         </div>
