@@ -2,10 +2,14 @@ import React from "react";
 import Image from "next//image";
 import { motion } from "framer-motion";
 import { variants } from "./Variant";
-import { FacebookOutlined, LinkedinOutlined, MailOutlined, MobileOutlined } from "@ant-design/icons";
+import {
+  FacebookOutlined,
+  LinkedinOutlined,
+  MailOutlined,
+  MobileOutlined,
+} from "@ant-design/icons";
 
-const Contact = () => {  
-
+const Contact = () => {
   return (
     <section id="contact" className="h-auto pt-0 md:pt-5">
       <div className="container py-20">
@@ -28,27 +32,36 @@ const Contact = () => {
           >
             Got a question or just want to say hello? Go ahead.
           </motion.p>
-          <motion.div className="flex mb-6 items-center justify-center mb-5"
-          initial="hidden"
-          animate="visible"
-          variants={variants}
-          transition={{ duration: 2, ease: "easeInOut" }}
+          <motion.div
+            className="flex mb-6 items-center justify-center mb-5"
+            initial="hidden"
+            animate="visible"
+            variants={variants}
+            transition={{ duration: 2, ease: "easeInOut" }}
           >
-                  <p className="pl-3">
-                  <a href="mailto:athelay.lwin@gmail.com" className="inline-block pr-5">
-                    <MailOutlined className="hover:text-amber-500" /> 
-                    </a>
-                    <a href="tel:+9595153855" className="inline-block pr-5">
-                    <MobileOutlined className="hover:text-amber-500" /> 
-                    </a>
-                    <a href="https://www.linkedin.com/in/the-the-lwin-81487921/"  target="_blank" rel="noopener noreferrer" className="inline-block pr-5">
-                      <LinkedinOutlined className="hover:text-amber-500" />
-                    </a>
-                    {/* <a href="tel:+9595153855" className="inline-block">
+            <p className="pl-3">
+              <a
+                href="mailto:athelay.lwin@gmail.com"
+                className="inline-block pr-5"
+              >
+                <MailOutlined className="hover:text-amber-500" />
+              </a>
+              <a href="tel:+9595153855" className="inline-block pr-5">
+                <MobileOutlined className="hover:text-amber-500" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/the-the-lwin-81487921/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block pr-5"
+              >
+                <LinkedinOutlined className="hover:text-amber-500" />
+              </a>
+              {/* <a href="tel:+9595153855" className="inline-block">
                       <FacebookOutlined className="hover:text-amber-500" />
                     </a> */}
-                  </p>
-                </motion.div>
+            </p>
+          </motion.div>
         </div>
         <div className="flex flex-col md:flex-row">
           <div className="w-full">
@@ -68,8 +81,11 @@ const Contact = () => {
                 variants={variants}
                 transition={{ duration: 2, ease: "easeInOut" }}
                 id="contactForm"
-                action="assets/contact.php"
+                name="contact"
+                method="POST"
+                data-netlify="true"
               >
+                <input type="hidden" name="form-name" value="contact"></input>
                 <div className="flex flex-wrap">
                   <div className="w-full sm:w-1/2 md:w-full lg:w-1/2">
                     <div className="mx-3">
@@ -146,14 +162,13 @@ const Contact = () => {
             className="px-0 md:px-10 w-full sm:w-1/2 lg:w-1/2 py-10 md:py-0"
           >
             <div className="pl-3 md:pl-12">
-              
               <Image
-              className="img-fluid mx-auto rounded-md"
-              src="/img/mp-contact.svg"
-              alt=""
-              width="500"
-              height="500"
-            />
+                className="img-fluid mx-auto rounded-md"
+                src="/img/mp-contact.svg"
+                alt=""
+                width="500"
+                height="500"
+              />
             </div>
           </motion.div>
         </div>
