@@ -98,9 +98,14 @@
   dependencies:
     "glob" "7.1.7"
 
-"@next/swc-win32-x64-msvc@12.1.7-canary.29":
-  "integrity" "sha512-jqNdWC7N15Z2SK51OkKsSw5Qg3scoix6o52dkicRhNJ4vV7hmV2KBFgh3Scvlz604dfe7ie9gho2lNaKYI13Tg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.1.7-canary.29.tgz"
+"@next/swc-linux-x64-gnu@12.1.7-canary.29":
+  "integrity" "sha512-+CGZvVVBvujUlioaw/3fTtWKdBzoA+pdg6Sdj2uIONAo3Iz9jWolV+SSB5mEIDoms82oJrurW28POietyHAMUQ=="
+  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-12.1.7-canary.29.tgz"
+  "version" "12.1.7-canary.29"
+
+"@next/swc-linux-x64-musl@12.1.7-canary.29":
+  "integrity" "sha512-LaCbMUA6Yfo7n0+EhKT3gDOmA0ly7HQiHeLYvZClYRe/k+KJuAyz2lXWrN/b7q15raE5bDNgylTK+qV8ntG9GA=="
+  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-12.1.7-canary.29.tgz"
   "version" "12.1.7-canary.29"
 
 "@nodelib/fs.scandir@2.1.5":

@@ -42,31 +42,10 @@ const Experience = () => {
             </span>
           </div>
           <div>
-            <p className="pb-7">
-            She has  been making a living as a remote, freelance web developer—loving and focusing on WordPress and working as a fundamental part of several IT teams and projects. 
+            <p className="pb-5">
+            She has  been making a living as a remote, freelance web developer—loving and focusing on customized WordPress, Reactjs, Nextjs, Laravel, Vue js and  working as a fundamental part of several IT teams and projects. And now seek new challenge opportunities as permanent positions. 
             </p>
-            <ul className="marker:text-amber-300 list-disc list-inside">
-              <li>
-                Crafted a scalable component library that enforced accessibility
-                and fluency across the application.
-              </li>
-              <li>
-                Built a multi-role user authentication system from the ground up
-                with JavaScript.
-              </li>
-              <li>
-                Implemented a client-side localization system for the entire
-                app.
-              </li>
-              <li>
-                Built a client-side multilingual routing system with solid
-                navigation guards.
-              </li>
-              <li>
-                Engineered fail-safe optimized utility libraries to minimize
-                runtime errors and unusability in production.
-              </li>
-            </ul>
+            
             <p className="py-7">Projects I&apos;ve worked on</p>
             <ul>
               <li>
