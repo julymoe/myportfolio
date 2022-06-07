@@ -140,6 +140,26 @@ const Work = () => {
             </div>
             <div className="h-auto item basis-1/3 cursor-grab grow-1 shrink-0 shadow-xl transition ease-in-out rounded hover:-translate-y-1 hover:scale-110 border-t border-zinc-2">
               <div className="p-7">
+                <h3 className="text-2xl font-semibold">Photo Gallery search, load more, login</h3>
+                <a href="https://react-splash-image-firebase.netlify.app/gallery" target="_blank" rel="noopener noreferrer">https://react-splash-image-firebase.netlify.app</a>
+              </div>
+              <div className="px-6 pt-4 pb-5">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Reactjs
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Tailwind Css
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Firebase
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Netlify
+                </span>
+              </div>
+            </div>
+            <div className="h-auto item basis-1/3 cursor-grab grow-1 shrink-0 shadow-xl transition ease-in-out rounded hover:-translate-y-1 hover:scale-110 border-t border-zinc-2">
+              <div className="p-7">
                 <h3 className="text-2xl font-semibold">Komy4u Online Shopping</h3>
                 <a href="https://komy4u.com/" target="_blank" rel="noopener noreferrer">https://komy4u.com/</a>
               </div>
