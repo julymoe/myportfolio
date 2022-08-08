@@ -47,14 +47,23 @@ const Experience = () => {
             </p>
             
             <p className="py-7">Projects I&apos;ve worked on</p>
-            <ul>
-              <li>
+            <ul>              
+            <li>
                 <a
-                  href="https://winhan.vercel.app/"
+                  href="https://www.w-winhan.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://winhan.vercel.app/
+                  https://www.w-winhan.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://znmwnew.webnifty.online/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://znmwnew.webnifty.online/
                 </a>
               </li>
               <li>
@@ -68,15 +77,6 @@ const Experience = () => {
               </li>
               <li>
                 <a
-                  href="https://myportfolio-profile.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  https://myportfolio-profile.netlify.app/
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://webnifty.net"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -84,6 +84,24 @@ const Experience = () => {
                   https://webnifty.net
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://webnifty.online"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://webnifty.online
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://myportfolio-profile.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://myportfolio-profile.netlify.app/
+                </a>
+              </li>              
               <li>
                 <a
                   href="https://shwekhunchan.com"
@@ -104,11 +122,20 @@ const Experience = () => {
               </li>
               <li>
                 <a
-                  href="https://www.w-winhan.com"
+                  href="https://kshk.webnifty.online/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.w-winhan.com
+                  https://kshk.webnifty.online/
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://estate.webnifty.online/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://estate.webnifty.online/
                 </a>
               </li>
             </ul>

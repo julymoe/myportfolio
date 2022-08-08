@@ -92,7 +92,8 @@ const Work = () => {
             <div className="h-auto item basis-1/3 cursor-grab grow-1 shrink-0 shadow-xl transition ease-in-out rounded hover:-translate-y-1 hover:scale-110 border-t border-zinc-200">
               <div className="p-7">
                 <h3 className="text-2xl font-semibold">Webnifty Web Dev. Company</h3>
-                <a href="https://webnifty.net/" target="_blank" rel="noopener noreferrer">https://webnifty.net/</a>
+                <a href="https://webnifty.net/" target="_blank" rel="noopener noreferrer">https://webnifty.net/</a><br />
+                <a href="https://webnifty.online/" target="_blank" rel="noopener noreferrer">https://webnifty.online/</a>
               </div>
               <div className="px-6 pt-4 pb-5">
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -140,44 +141,24 @@ const Work = () => {
             </div>
             <div className="h-auto item basis-1/3 cursor-grab grow-1 shrink-0 shadow-xl transition ease-in-out rounded hover:-translate-y-1 hover:scale-110 border-t border-zinc-2">
               <div className="p-7">
-                <h3 className="text-2xl font-semibold">Photo Gallery search, load more, login</h3>
-                <a href="https://react-splash-image-firebase.netlify.app" target="_blank" rel="noopener noreferrer">https://react-splash-image-firebase.netlify.app</a>
+                <h3 className="text-2xl font-semibold">Cinema Online Booking</h3>
+                <a href="http://megaace.webnifty.online/" target="_blank" rel="noopener noreferrer">http://megaace.webnifty.online/</a>
               </div>
               <div className="px-6 pt-4 pb-5">
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  #Reactjs
+                  #Laravel
                 </span>
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  #Tailwind Css
+                  #Bootstrap Css
                 </span>
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  #Firebase
+                  #MPU Payment
                 </span>
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  #Netlify
+                  #SMS
                 </span>
               </div>
-            </div>
-            <div className="h-auto item basis-1/3 cursor-grab grow-1 shrink-0 shadow-xl transition ease-in-out rounded hover:-translate-y-1 hover:scale-110 border-t border-zinc-2">
-              <div className="p-7">
-                <h3 className="text-2xl font-semibold">Ecommerce Shop</h3>
-                <a href="https://ecommerces-nextjs-sanity.vercel.app/" target="_blank" rel="noopener noreferrer">https://ecommerces-nextjs-sanity.vercel.app/</a>
-              </div>
-              <div className="px-6 pt-4 pb-5">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  #Nextjs
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  #Sanity
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  #Stripe
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  #Vercel
-                </span>
-              </div>
-            </div>
+            </div>            
             <div className="h-auto item basis-1/3 cursor-grab grow-1 shrink-0 shadow-xl transition ease-in-out rounded hover:-translate-y-1 hover:scale-110 border-t border-zinc-2">
               <div className="p-7">
                 <h3 className="text-2xl font-semibold">Komy4u Online Shopping</h3>
@@ -265,6 +246,40 @@ const Work = () => {
             </div>
             <div className="h-auto item basis-1/3 cursor-grab grow-1 shrink-0 shadow-xl transition ease-in-out rounded hover:-translate-y-1 hover:scale-110 border-t border-zinc-2">
               <div className="p-7">
+                <h3 className="text-2xl font-semibold">Photographer Ecommerce</h3>
+                <a href="https://kshk.webnifty.online/" target="_blank" rel="noopener noreferrer">https://kshk.webnifty.online/</a>
+              </div>
+              <div className="px-6 pt-4 pb-5">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Wordpress
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Bootstrap
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Woocommerce
+                </span>
+              </div>
+            </div>
+            <div className="h-auto item basis-1/3 cursor-grab grow-1 shrink-0 shadow-xl transition ease-in-out rounded hover:-translate-y-1 hover:scale-110 border-t border-zinc-2">
+              <div className="p-7">
+                <h3 className="text-2xl font-semibold">Photographer Online Sales</h3>
+                <a href="https://znmwnew.webnifty.online/" target="_blank" rel="noopener noreferrer">https://znmwnew.webnifty.online/</a>
+              </div>
+              <div className="px-6 pt-4 pb-5">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Wordpress
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Bootstrap
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Woocommerce
+                </span>
+              </div>
+            </div>
+            <div className="h-auto item basis-1/3 cursor-grab grow-1 shrink-0 shadow-xl transition ease-in-out rounded hover:-translate-y-1 hover:scale-110 border-t border-zinc-2">
+              <div className="p-7">
                 <h3 className="text-2xl font-semibold">JFE Meranti</h3>
                 <a href="https://www.jfemeranti.com/" target="_blank" rel="noopener noreferrer">https://www.jfemeranti.com/</a>
               </div>
@@ -280,6 +295,47 @@ const Work = () => {
                 </span>
               </div>
             </div>
+            <div className="h-auto item basis-1/3 cursor-grab grow-1 shrink-0 shadow-xl transition ease-in-out rounded hover:-translate-y-1 hover:scale-110 border-t border-zinc-2">
+              <div className="p-7">
+                <h3 className="text-2xl font-semibold">Photo Gallery search, load more, login</h3>
+                <a href="https://react-splash-image-firebase.netlify.app" target="_blank" rel="noopener noreferrer">https://react-splash-image-firebase.netlify.app</a>
+              </div>
+              <div className="px-6 pt-4 pb-5">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Reactjs
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Tailwind Css
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Firebase
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Netlify
+                </span>
+              </div>
+            </div>
+            <div className="h-auto item basis-1/3 cursor-grab grow-1 shrink-0 shadow-xl transition ease-in-out rounded hover:-translate-y-1 hover:scale-110 border-t border-zinc-2">
+              <div className="p-7">
+                <h3 className="text-2xl font-semibold">Ecommerce Shop</h3>
+                <a href="https://ecommerces-nextjs-sanity.vercel.app/" target="_blank" rel="noopener noreferrer">https://ecommerces-nextjs-sanity.vercel.app/</a>
+              </div>
+              <div className="px-6 pt-4 pb-5">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Nextjs
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Sanity
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Stripe
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #Vercel
+                </span>
+              </div>
+            </div>
+            <div className="h-60 bg-slate-50 item basis-1/3 cursor-grab grow-1 shrink-0 "></div>
             <div className="h-60 bg-slate-50 item basis-1/3 cursor-grab grow-1 shrink-0 "></div>
         </motion.div>
       </motion.div>
