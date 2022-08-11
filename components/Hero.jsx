@@ -19,7 +19,7 @@ const Hero = () => {
                 variants={variants}
                 transition={{ duration: 2, ease: "easeInOut" }}
               >
-                <span className="text-amber-400">Frontend</span> & <br /> Wordpress Developer
+                <span className="text-amber-400">Frontend, CMS</span> & <br /> Laravel Developer
               </motion.h2>
               <motion.p
                 className="mb-10"
@@ -28,7 +28,7 @@ const Hero = () => {
                 variants={variants}
                 transition={{ duration: 2, ease: "easeInOut" }}
               >
-                I&apos;m a frontend and wordpress cms developer who has been building
+                I&apos;m a frontend, wordpress cms and laravel developer who has been building
                 for the web in some capacity since 2007. I specialise in
                 accessibility, performance and usability without sacrificing
                 creativity.

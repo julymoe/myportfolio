@@ -101,6 +101,11 @@ const SkillTool = () => {
             <p>Github</p>
           </div>
           <div className="box-icon">
+            <i class="text-7xl devicon-bitbucket-original colored"
+              aria-hidden="true"></i>
+            <p>Bitbucket</p>
+          </div>                   
+          <div className="box-icon">
             <i className="text-7xl devicon-firebase-plain colored"></i>
             <p>Firebase</p>
           </div>

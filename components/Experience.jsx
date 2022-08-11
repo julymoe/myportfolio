@@ -43,11 +43,11 @@ const Experience = () => {
           </div>
           <div>
             <p className="pb-5">
-            She has  been making a living as a remote, freelance web developer—loving and focusing on customized WordPress, Reactjs, Nextjs, Laravel, Vue js and  working as a fundamental part of several IT teams and projects. And now seek new challenge opportunities as permanent positions. 
+            She has  been making a living as a remote, freelance web developer—loving and focusing on customized WordPress, Reactjs, Nextjs, Vue js, Laravel and  working as a fundamental part of several IT teams and projects. And now seek new challenge opportunities as permanent positions. 
             </p>
             
             <p className="py-7">Projects I&apos;ve worked on</p>
-            <ul>              
+            <ul>    
             <li>
                 <a
                   href="https://www.w-winhan.com"
@@ -55,6 +55,24 @@ const Experience = () => {
                   rel="noopener noreferrer"
                 >
                   https://www.w-winhan.com
+                </a>
+              </li>          
+            <li>
+                <a
+                  href="https://megaace.webnifty.online/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://megaace.webnifty.online/
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.fivestartradingjpcar.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://www.fivestartradingjpcar.com/
                 </a>
               </li>
               <li>
