@@ -60,7 +60,7 @@ const Navbar = () => {
             boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
           }}
         >
-          <div className="container flex justify-between items-center">
+          <div className="container flex justify-between items-center h-12">
             <Link href="/">
               <a className="navbar-brand font-bold text-2xl">TTL</a>
             </Link>

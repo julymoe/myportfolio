@@ -5,7 +5,7 @@ import { variants } from "./Variant";
 
 const Hero = () => {
   return (
-    <section id="hero-area" className="w-full hero pt-0 md:pt-5"
+    <section id="hero-area" className="w-full hero pt-20 md:pt-5"
     //  style={{background: "#7e807c", color: "white"}}
      >
       <div className="container">

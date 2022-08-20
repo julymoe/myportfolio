@@ -5,7 +5,7 @@ import { variants } from "./Variant";
 
 const SkillTool = () => {
   return (
-    <section id="tool" className="h-auto px-20 pt-0 md:pt-5">
+    <section id="tool" className="h-auto md:px-20 pt-0 md:pt-5">
       <div className="container py-20">
         <motion.h2
           initial="hidden"
