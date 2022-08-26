@@ -32,6 +32,10 @@ a {
   right: 0;
 } */
 
+a:hover{
+  color: rgb(245 158 11);
+}
+
 .sideMenu{
   margin: 4.5rem 1.4rem;
 }
