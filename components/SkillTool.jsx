@@ -49,6 +49,13 @@ const SkillTool = () => {
           <div className="box-icon">
             <i className="text-7xl devicon-javascript-plain colored"></i>
             <p>JavaScript</p>
+          </div>          
+          <div className="box-icon">
+            <i
+              className="text-7xl devicon-typescript-plain colored"
+              aria-hidden="true"
+            ></i>
+            <p>TypeScript</p>
           </div>
           <div className="box-icon">
             <i
@@ -63,6 +70,10 @@ const SkillTool = () => {
               aria-hidden="true"
             ></i>
             <p>SASS</p>
+          </div>
+          <div className="box-icon">
+            <i className="text-7xl devicon-graphql-plain colored"></i>
+            <p>Graphql</p>
           </div>
           <div className="box-icon">
             <i className="text-7xl devicon-tailwindcss-plain colored"></i>
@@ -85,6 +96,22 @@ const SkillTool = () => {
               aria-hidden="true"
             ></i>
             <p>NextJs</p>
+          </div>
+          <div className="box-icon">
+            <i className="text-7xl colored devicon-nodejs-plain"></i>
+            <p>Nodejs</p>
+          </div>
+          <div className="box-icon">
+            <i className="text-7xl colored devicon-express-original"></i>
+            <p>Express Js</p>
+          </div>
+          <div className="box-icon">
+            <i className="text-7xl colored devicon-redux-original"></i>
+            <p>Redux</p>
+          </div>
+          <div className="box-icon">
+            <i className="text-7xl colored devicon-mongodb-plain"></i>
+            <p>Mongo DB</p>
           </div>
           <div className="box-icon">
             <i
@@ -111,13 +138,6 @@ const SkillTool = () => {
           </div>
           <div className="box-icon">
             <i
-              className="text-7xl devicon-typescript-plain colored"
-              aria-hidden="true"
-            ></i>
-            <p>TypeScript</p>
-          </div>
-          <div className="box-icon">
-            <i
               className="text-7xl devicon-visualstudio-plain colored"
               aria-hidden="true"
             ></i>
@@ -138,13 +158,17 @@ const SkillTool = () => {
             <p>Woocommerce</p>
           </div>
           <div className="box-icon">
-            <i className="text-7xl devicon-graphql-plain colored"></i>
-            <p>Graphql</p>
+            <i className="text-7xl colored devicon-php-plain"></i>
+            <p>Php</p>
           </div>
           <div className="box-icon">
             <i className="text-7xl devicon-laravel-plain colored"></i>
             <p>Laravel</p>
           </div>
+          <div className="box-icon">
+            <i className="text-7xl devicon-mysql-plain-wordmark colored"></i>
+            <p>MySql</p>
+          </div> 
           <div className="box-icon">
             <i className="text-7xl devicon-vuejs-plain colored"></i>
             <p>Vue</p>
@@ -154,8 +178,8 @@ const SkillTool = () => {
             <p>Photoshop</p>
           </div>
           <div className="box-icon">
-            <i className="text-7xl devicon-mysql-plain-wordmark colored"></i>
-            <p>MySql</p>
+            <i className="text-7xl devicon-figma-plain colored"></i>
+            <p>Figma</p>
           </div>
         </motion.div>
       </div>

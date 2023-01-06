@@ -10,7 +10,7 @@ const Hero = () => {
      >
       <div className="container">
         <div className="flex flex-wrap justify-center items-center h-auto min-h-screen">
-          <div className="w-full sm:w-1/2 md:w-1/2 self-center md:pl-20">
+          <div className="w-full sm:w-1/2 md:w-1/2 self-center">
             <div>
               <motion.h2
                 className="text-4xl font-bold mb-10 color-"
@@ -19,7 +19,8 @@ const Hero = () => {
                 variants={variants}
                 transition={{ duration: 2, ease: "easeInOut" }}
               >
-                <span className="text-amber-400">Frontend, CMS</span> & <br /> Laravel Developer
+                <span className="text-amber-400">Web Developer </span> 
+                <br /> <small className="text-lg">Frontend, Wordpress, Backend</small>
               </motion.h2>
               <motion.p
                 className="mb-10"
