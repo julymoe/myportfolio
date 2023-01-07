@@ -6,7 +6,7 @@ const experience = () => {
   return (
     <>
       <Head>
-        <title>My Skills & Tools</title>
+        <title>Professional Experience</title>
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
