@@ -7,6 +7,7 @@ import {
   LinkedinOutlined,
   MailOutlined,
   MobileOutlined,
+  GithubOutlined,
 } from "@ant-design/icons";
 
 const Contact = () => {
@@ -46,7 +47,7 @@ const Contact = () => {
               >
                 <MailOutlined className="hover:text-amber-500" />
               </a>
-              <a href="tel:+9595153855" className="inline-block pr-5">
+              <a href="tel:+959798298827" className="inline-block pr-5">
                 <MobileOutlined className="hover:text-amber-500" />
               </a>
               <a
@@ -57,9 +58,10 @@ const Contact = () => {
               >
                 <LinkedinOutlined className="hover:text-amber-500" />
               </a>
-              {/* <a href="tel:+9595153855" className="inline-block">
-                      <FacebookOutlined className="hover:text-amber-500" />
-                    </a> */}
+
+              <a href="https://github.com/julymoe" className="inline-block">
+                <GithubOutlined  className="hover:text-amber-500" />
+              </a>
             </p>
           </motion.div>
         </div>

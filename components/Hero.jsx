@@ -20,7 +20,7 @@ const Hero = () => {
                 transition={{ duration: 2, ease: "easeInOut" }}
               >
                 <span className="text-amber-400">Web Developer </span> 
-                <br /> <small className="text-lg">Frontend, Wordpress, Backend</small>
+                <br /> <small className="text-lg">Frontend, Wordpress CMS</small>
               </motion.h2>
               <motion.p
                 className="mb-10"
@@ -29,10 +29,10 @@ const Hero = () => {
                 variants={variants}
                 transition={{ duration: 2, ease: "easeInOut" }}
               >
-                I&apos;m a frontend, wordpress cms and laravel developer who has been building
-                for the web in some capacity since 2007. I specialise in
+                I&apos;m a frontend developer with strong knowledge in WordPress, ReactJS, and Laravel PHP who has been building for the web in some capacity since 2007. I have a passion for creating high-quality, user-friendly web applications that are both visually appealing and highly functional. 
+                {/* I specialise in
                 accessibility, performance and usability without sacrificing
-                creativity.
+                creativity. */}
               </motion.p>
               <motion.p
                 className="mb-10"

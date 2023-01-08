@@ -113,11 +113,11 @@ const Experience = () => {
               </li>
               <li>
                 <a
-                  href="https://myportfolio-profile.netlify.app/"
+                  href="https://zephyrdayz.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://myportfolio-profile.netlify.app/
+                  https://zephyrdayz.com/
                 </a>
               </li>              
               <li>
@@ -145,6 +145,15 @@ const Experience = () => {
                   rel="noopener noreferrer"
                 >
                   https://kshk.webnifty.online/
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://hnt.webnifty.online/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://hnt.webnifty.online/
                 </a>
               </li>
               <li>
